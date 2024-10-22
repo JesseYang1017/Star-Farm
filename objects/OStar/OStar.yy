@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"OCharacter",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":53,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":54,"eventType":6,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"OStar",
+  "eventList":[],
   "managed":true,
-  "name":"OCharacter",
+  "name":"OStar",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Character",
-    "path":"sprites/Character/Character.yy",
+    "name":"star",
+    "path":"sprites/star/star.yy",
   },
   "spriteMaskId":null,
   "visible":true,

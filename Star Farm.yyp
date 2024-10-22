@@ -35,8 +35,11 @@
   "name":"Space Farm",
   "resources":[
     {"id":{"name":"OCharacter","path":"objects/OCharacter/OCharacter.yy",},},
+    {"id":{"name":"OStar","path":"objects/OStar/OStar.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Character","path":"sprites/Character/Character.yy",},},
+    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
+    {"id":{"name":"star","path":"sprites/star/star.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
