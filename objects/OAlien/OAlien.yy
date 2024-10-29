@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"OStar",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":54,"eventType":6,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"OAlien",
+  "eventList":[],
   "managed":true,
-  "name":"OStar",
+  "name":"OAlien",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"star",
-    "path":"sprites/star/star.yy",
+    "name":"alien",
+    "path":"sprites/alien/alien.yy",
   },
   "spriteMaskId":null,
   "visible":true,
