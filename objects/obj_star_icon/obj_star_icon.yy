@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"OStar",
+  "%Name":"obj_star_icon",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":51,"eventType":6,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"OStar",
+  "name":"obj_star_icon",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"star",
-    "path":"sprites/star/star.yy",
+    "name":"DrawLine",
+    "path":"sprites/DrawLine/DrawLine.yy",
   },
   "spriteMaskId":null,
   "visible":true,

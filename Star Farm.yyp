@@ -34,10 +34,14 @@
   },
   "name":"Space Farm",
   "resources":[
+    {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
+    {"id":{"name":"obj_star_icon","path":"objects/obj_star_icon/obj_star_icon.yy",},},
     {"id":{"name":"OCharacter","path":"objects/OCharacter/OCharacter.yy",},},
     {"id":{"name":"OStar","path":"objects/OStar/OStar.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Starting_Page","path":"rooms/Starting_Page/Starting_Page.yy",},},
     {"id":{"name":"Character","path":"sprites/Character/Character.yy",},},
+    {"id":{"name":"DrawLine","path":"sprites/DrawLine/DrawLine.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
     {"id":{"name":"star","path":"sprites/star/star.yy",},},
   ],
@@ -45,6 +49,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Starting_Page","path":"rooms/Starting_Page/Starting_Page.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
