@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"Path_fireball2",
+  "closed":false,
+  "kind":0,
+  "name":"Path_fireball2",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":796.0,"y":371.5,},
+    {"speed":100.0,"x":233.0,"y":539.5,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

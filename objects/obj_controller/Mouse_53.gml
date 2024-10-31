@@ -1,7 +1,4 @@
-if (instance_position(mouse_x, mouse_y, OStar) == noone && instance_position(mouse_x, mouse_y, obj_star_icon) == noone) {
+// Only place a star if placing mode is active and there's no object at the mouse position
+if (global.is_placing_star && instance_position(mouse_x, mouse_y, all) == noone) {
     instance_create_layer(mouse_x, mouse_y, "Instances", OStar);
 }
-
-
-/// @description Insert description here
-// You can write your code in this editor

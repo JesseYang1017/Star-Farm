@@ -1,27 +1,27 @@
 {
   "$GMSprite":"",
-  "%Name":"DrawLine",
+  "%Name":"Earth",
   "bboxMode":0,
-  "bbox_bottom":46,
-  "bbox_left":5,
-  "bbox_right":52,
-  "bbox_top":6,
+  "bbox_bottom":660,
+  "bbox_left":1,
+  "bbox_right":660,
+  "bbox_top":1,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2334573b-c350-401f-82e1-68715247dd62","name":"2334573b-c350-401f-82e1-68715247dd62","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"ef2f28ac-9c2a-4efb-bf7d-05d844865ab6","name":"ef2f28ac-9c2a-4efb-bf7d-05d844865ab6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":661,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"f184e9fb-5f9b-4160-83bd-24aa66df7e78","blendMode":0,"displayName":"default","isLocked":false,"name":"f184e9fb-5f9b-4160-83bd-24aa66df7e78","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"280b4a7f-9597-4c0f-8884-796c8d0f3279","blendMode":0,"displayName":"default","isLocked":false,"name":"280b4a7f-9597-4c0f-8884-796c8d0f3279","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"DrawLine",
+  "name":"Earth",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"DrawLine",
+    "%Name":"Earth",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"DrawLine",
+    "name":"Earth",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2334573b-c350-401f-82e1-68715247dd62","path":"sprites/DrawLine/DrawLine.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"dafa4f53-5628-47b6-a738-6103047d7393","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ef2f28ac-9c2a-4efb-bf7d-05d844865ab6","path":"sprites/Earth/Earth.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"60a63b6a-6d77-4bd0-a64c-aad2c12be590","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":661,
 }

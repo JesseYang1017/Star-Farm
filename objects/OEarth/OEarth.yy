@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"OAlien",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"OEarth",
+  "eventList":[],
   "managed":true,
-  "name":"OAlien",
+  "name":"OEarth",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"alien",
-    "path":"sprites/alien/alien.yy",
+    "name":"Earth",
+    "path":"sprites/Earth/Earth.yy",
   },
   "spriteMaskId":null,
   "visible":true,
