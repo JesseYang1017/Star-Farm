@@ -1,16 +1,27 @@
 // Mouse Left Pressed Event in OStar
-
-if (global.is_connecting_stars) {
-    // Check if there's a previously clicked star and it's not the same as this one
-    if (global.previous_star != noone && global.previous_star != id) {
-        // Save the coordinates as a line segment to persist it
-        var line = [global.previous_star.x + 10, global.previous_star.y + 10, x + 10, y + 10];
-        array_push(global.lines, line); // Append to the line list
-        
-        // Reset global.previous_star after creating the line
-        global.previous_star = noone;
+if(!global.isEraserMode){
+	with (obj_line_controller) {
+    if (!draggingLine) {
+        // Start a new line from this star
+        firstStar = other.id; // Reference the clicked star
+        draggingLine = true;
     } else {
-        // Set this star as the previous star to prepare for the next click
-        global.previous_star = id;
+        // Check if this star is within range
+        var dist = point_distance(firstStar.x, firstStar.y, other.x, other.y);
+        
+        if (dist <= 500) {
+            // Add a new line to the list
+            var line = ds_map_create();
+            line[? "startX"] = firstStar.x;
+            line[? "startY"] = firstStar.y;
+            line[? "endX"] = other.x;
+            line[? "endY"] = other.y;
+            ds_list_add(lines, line);
+
+            // Reset dragging state
+            firstStar = noone;
+            draggingLine = false;
+        }
     }
+}
 }

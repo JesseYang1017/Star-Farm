@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"DrawLine",
-    "path":"sprites/DrawLine/DrawLine.yy",
+    "name":"place_star_highlighted",
+    "path":"sprites/place_star_highlighted/place_star_highlighted.yy",
   },
   "spriteMaskId":null,
   "visible":true,
