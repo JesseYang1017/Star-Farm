@@ -38,7 +38,7 @@ function clear_map() {
     with (obj_star) {
         instance_destroy();
     }
-
+    global.graph_completed = false;
     // Optional: Add feedback
     show_debug_message("Map cleared manually.");
 }
