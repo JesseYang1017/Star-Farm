@@ -2,6 +2,7 @@
 // You can write your code in this editor
 global.isEraserMode = !global.isEraserMode; // Toggle eraser mode
 
+/**
 if(global.connectStarMode){
 	global.connectStarMode = false;
 	with(obj_connect_icon){
@@ -21,6 +22,7 @@ if(global.is_placing_star){
 		sprite_index = place_star;
 	}
 }
+**/
 
 
 

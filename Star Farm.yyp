@@ -36,6 +36,7 @@
   "resources":[
     {"id":{"name":"CameraControl","path":"objects/CameraControl/CameraControl.yy",},},
     {"id":{"name":"OAlien","path":"objects/OAlien/OAlien.yy",},},
+    {"id":{"name":"obj_clear_button","path":"objects/obj_clear_button/obj_clear_button.yy",},},
     {"id":{"name":"obj_connect_icon","path":"objects/obj_connect_icon/obj_connect_icon.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"obj_drawing_controller","path":"objects/obj_drawing_controller/obj_drawing_controller.yy",},},
