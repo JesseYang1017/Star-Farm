@@ -13,3 +13,23 @@ if (global.connectStarMode) {
     }// Switch to normal sprite
 }
 // Reset previous star to avoid lingering connections
+
+if(global.is_placing_star){
+	global.is_placing_star = false;
+	with(obj_star_icon){
+		sprite_index = place_star;
+	}
+}
+if(global.is_pen_mode){
+	global.is_pen_mode = false;
+	with(obj_pen_icon){
+		sprite_index = DrawShape;
+	}
+}
+
+if(global.isEraserMode){
+	global.isEraserMode = false;
+	with(obj_eraser_icon){
+		sprite_index = Eraser;
+	}
+}

@@ -9,3 +9,23 @@ if (global.is_pen_mode) {
 } else {
     sprite_index = DrawShape;      // Switch to normal sprite
 }
+
+if(global.connectStarMode){
+	global.connectStarMode = false;
+	with(obj_connect_icon){
+		sprite_index = DrawLine;
+	}
+}
+if(global.isEraserMode){
+	global.isEraserMode = false;
+	with(obj_eraser_icon){
+		sprite_index = Eraser;
+	}
+}
+
+if(global.is_placing_star){
+	global.is_placing_star = false;
+	with(obj_star_icon){
+		sprite_index = place_star;
+	}
+}
