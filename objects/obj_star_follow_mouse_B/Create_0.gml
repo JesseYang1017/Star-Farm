@@ -1,9 +1,7 @@
-// obj_star_follow_mouse - Create Event
 type = "B";
-if (type == "A") {
-    sprite_index = star;
-} else if (type == "B") {
+if (type == "B" && obj_map.typeB_count > 0) {
     sprite_index = star_B;
-} else {
+}
+else {
     instance_destroy(); // Destroy if no valid type is set
 }

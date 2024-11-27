@@ -9,8 +9,8 @@
   "name":"obj_star_follow_mouse_A",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Taurus Room",
+    "path":"folders/Objects/Taurus Room.yy",
   },
   "parentObjectId":null,
   "persistent":false,

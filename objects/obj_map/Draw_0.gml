@@ -3,10 +3,11 @@
 // Draw connections
 for (var i = 0; i < ds_list_size(nodes); i++) {
     var node = nodes[| i];
+	//show_debug_message(node);
     for (var j = 0; j < array_length(node.connections); j++) {
         var connected_node_index = node.connections[j];
         var connected_node = nodes[| connected_node_index];
-
+		
         draw_line_color(node.x, node.y, connected_node.x, connected_node.y, c_white, c_white);
     }
 }
@@ -23,9 +24,16 @@ for (var i = 0; i < ds_list_size(nodes); i++) {
     } else {
         draw_circle_color(node.x, node.y, 10, c_gray, c_gray, false); // Empty node
     }
+	
 
     if (node.violation_timer > 0) {
         draw_circle_color(node.x, node.y, 15, c_red, c_red, false);
         draw_text(node.x + 20, node.y, node.violation);
     }
 }
+
+if (global.violation_count == 0 && global.graph_completed) {
+    draw_text(2600, 1700, "Huzzah You Got It!");
+    global.huzzah_timer = 2; // 2 seconds
+}
+

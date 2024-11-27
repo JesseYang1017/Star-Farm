@@ -8,8 +8,8 @@
   "name":"obj_eraser_icon",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"free draw",
+    "path":"folders/Objects/free draw.yy",
   },
   "parentObjectId":null,
   "persistent":false,

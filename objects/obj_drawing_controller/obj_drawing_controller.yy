@@ -11,8 +11,8 @@
   "name":"obj_drawing_controller",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"free draw",
+    "path":"folders/Objects/free draw.yy",
   },
   "parentObjectId":null,
   "persistent":false,

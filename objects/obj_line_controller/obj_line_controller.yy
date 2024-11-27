@@ -10,8 +10,8 @@
   "name":"obj_line_controller",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"free draw",
+    "path":"folders/Objects/free draw.yy",
   },
   "parentObjectId":null,
   "persistent":false,
