@@ -5,8 +5,8 @@ if (point_in_rectangle(mouse_x, mouse_y, x, y, x + sprite_width, y + sprite_heig
     // Call the clear_map function in obj_map
     with (obj_map) {
         clear_map();
-		obj_map.typeA_count = 5
-		obj_map.typeB_count = 5
+		obj_map.typeA_count = 5;
+		obj_map.typeB_count = 5;
     }
 
     // Optional: Provide feedback

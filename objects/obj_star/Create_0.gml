@@ -5,3 +5,6 @@ if (type == "A") {
 } else if (type == "B") {
     sprite_index = star_B;
 }
+else if(type == "C"){
+	sprite_index = fireball;
+}

@@ -9,8 +9,8 @@
   "name":"obj_star_follow_mouse_A_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Virgo Room",
-    "path":"folders/Objects/Virgo Room.yy",
+    "name":"Libra Room",
+    "path":"folders/Objects/Libra Room.yy",
   },
   "parentObjectId":null,
   "persistent":false,

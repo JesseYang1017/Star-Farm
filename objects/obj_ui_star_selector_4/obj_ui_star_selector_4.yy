@@ -11,8 +11,8 @@
   "name":"obj_ui_star_selector_4",
   "overriddenProperties":[],
   "parent":{
-    "name":"Virgo Room",
-    "path":"folders/Objects/Virgo Room.yy",
+    "name":"Libra Room",
+    "path":"folders/Objects/Libra Room.yy",
   },
   "parentObjectId":null,
   "persistent":false,

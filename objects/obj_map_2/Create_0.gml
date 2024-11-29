@@ -1,7 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 // obj_map - Create Event
+// obj_map - Create Event
 nodes = ds_list_create(); // List of nodes
+global.violation_count = 0;
+global.huzzah_timer = 0;
+global.star_icon = noone;
+global.placing_star = false;
 
 // Approximate offsets for the map
 var screen_width = 1300;
@@ -46,5 +51,5 @@ function clear_map() {
 }
 
 typeA_count = 4;
-typeB_count = 3;
+typeB_count = 4;
 

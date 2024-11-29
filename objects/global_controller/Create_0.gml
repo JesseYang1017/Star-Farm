@@ -20,3 +20,8 @@ target_room = noone;     // Room to switch to after sliding
 
 
 global.taurus_completed = false;
+global.libra_completed = false;
+global.virgo_completed = false;
+global.aries_completed = false;
+
+audio_play_sound(Level_2___NO_PERCUSSION, 0, 0, 1.0, undefined, 1.0);
