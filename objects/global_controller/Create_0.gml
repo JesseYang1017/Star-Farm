@@ -6,6 +6,8 @@
 persistent = true;
 global.current_room = 0; // Start with room 0 (Pisces)
 
+
+
 // obj_room_transition - Create Event
 // obj_global_controller - Create Event
 
@@ -24,4 +26,8 @@ global.libra_completed = false;
 global.virgo_completed = false;
 global.aries_completed = false;
 
-audio_play_sound(Level_2___NO_PERCUSSION, 0, 0, 1.0, undefined, 1.0);
+ global.current_bgm_name = snd_bgm0;
+ global.current_bgm = audio_play_sound(global.current_bgm_name, 5, true); // Start the initial music
+ global.constellations = ds_list_create();
+ds_list_add(global.constellations, "taurus", "libra", "virgo", "aries");
+
