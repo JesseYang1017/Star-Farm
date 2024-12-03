@@ -25,17 +25,19 @@ if (mouse_check_button_pressed(mb_left) && global.placing_star) {
                     if (global.selected_star_type == "A") {
                         typeA_count -= 1;
                         new_star.sprite_index = star;
+						audio_play_sound(snd_starA, 3, false);
                         show_debug_message("Type A remaining: " + string(typeA_count));
                     } else if (global.selected_star_type == "B") {
                         typeB_count -= 1;
                         new_star.sprite_index = star_B;
+						audio_play_sound(snd_starB,3,false);
                         show_debug_message("Type B remaining: " + string(typeB_count));
                     } else if (global.selected_star_type == "C") {
                         typeC_count -= 1;
                         new_star.sprite_index = fireball;
+						audio_play_sound(snd_fireball, 3, false);
                         show_debug_message("Type C remaining: " + string(typeC_count));
                     }
-                    
                     // Reset placement state
                     global.placing_star = false;
                     global.selected_star_type = noone;
@@ -116,12 +118,17 @@ if (all_occupied && !global.graph_completed) {
     // Check if there are no violations
     if (global.violation_count == 0 && global.graph_completed) {
         global.aries_completed = true;
+			audio_play_sound(snd_level_success, 1, false);
         global.huzzah_timer = room_speed * 2; // Set Huzzah message timer
-    }
+    } else {
+		global.graph_complete = false;
+	}
+	
 }
 
 // Display "Huzzah" message if the graph is valid and completed
 if (global.huzzah_timer > 0) {
     draw_text(2600, 1700, "Huzzah You Got It!");
+
     global.huzzah_timer -= 1; // Decrease timer each frame
 }

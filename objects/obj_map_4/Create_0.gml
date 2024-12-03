@@ -42,6 +42,7 @@ function clear_map() {
         instance_destroy();
     }
     global.graph_completed = false;
+	global.violation_count = false;
     // Optional: Add feedback
     show_debug_message("Map cleared manually.");
 }
